@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.home-light-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.home-light-img {
+  width: 130px;
+}
+.home-light-heading {
+  color: #1e293b;
+  font-size: 32px;
+  margin-top: 15px;
+}
+.home-dark-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000000;
+}
+.home-dark-img {
+  width: 130px;
+}
+.home-dark-heading {
+  color: #ffffff;
+  font-size: 32px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-light-img {
+    width: 130px;
+  }
+  .home-light-heading {
+    font-size: 42px;
+    margin-top: 15px;
+  }
+  .home-dark-img {
+    width: 130px;
+  }
+  .home-dark-heading {
+    font-size: 42px;
+    margin-top: 15px;
+  }
+}

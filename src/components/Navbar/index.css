@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 5px 10px;
+  font-family: 'Roboto';
+}
+.navbar-item-container {
+  display: flex;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.web-logo {
+  width: 39px;
+}
+.dark-light-theme-icon {
+  width: 27px;
+  cursor: pointer;
+}
+.nav-items {
+  margin-right: 13px;
+  margin-left: 13px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.link {
+  text-decoration: none;
+  color: #171f46;
+}
+.dark-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.dark-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 5px 10px;
+  font-family: 'Roboto';
+}
+.nav-dark-items {
+  margin-right: 13px;
+  margin-left: 13px;
+  font-size: 16px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 6px 19px;
+    border-bottom: 2px solid #dcdcdc;
+  }
+  .web-logo {
+    width: 45px;
+  }
+  .dark-light-theme-icon {
+    width: 32px;
+  }
+  .nav-items {
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 18px;
+  }
+  .dark-navbar {
+    padding: 6px 19px;
+  }
+  .nav-dark-items {
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 18px;
+  }
+}
